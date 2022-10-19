@@ -38,7 +38,7 @@ class MrCoxallStack {
     if (this.stackAsList === undefined) {
       console.log('Nothing in the list!')
     } else {
-      peekNumber = this[this.stackAsList.length - 1]
+      peekNumber = this.stackAsList[this.stackAsList.length - 1]
       return peekNumber
     }
   }

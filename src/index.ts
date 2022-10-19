@@ -25,7 +25,7 @@ if (isNaN(passedNumber1) || isNaN(passedNumber2) || isNaN(passedNumber3)) {
   newStack.pushItem(passedNumber1)
   newStack.pushItem(passedNumber2)
   newStack.pushItem(passedNumber3)
-  console.log(`The list now is ${newStack.getList()}`)
+  console.log(`\nThe list now is ${newStack.getList()}`)
   console.log('Pop out the number on the top')
   const popNumber = newStack.popItem()
   if (popNumber !== undefined) {
@@ -33,7 +33,7 @@ if (isNaN(passedNumber1) || isNaN(passedNumber2) || isNaN(passedNumber3)) {
   }
   const peekNumber = newStack.peekItem()
   if (peekNumber !== undefined) {
-    console.log(`Now the number on the top is ${peekNumber}`)
+    console.log(`\nNow the number on the top is ${peekNumber}`)
   }
   console.log(`The list is ${newStack.getList()}`)
 }
