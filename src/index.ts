@@ -29,7 +29,7 @@ if (isNaN(passedNumber1) || isNaN(passedNumber2) || isNaN(passedNumber3)) {
   console.log('Pop out the number on the top')
   const popNumber = newStack.popItem()
   if (popNumber !== undefined) {
-    console.log(`The poped number is ${popNumber}`)
+    console.log(`The popped number is ${popNumber}`)
   }
   const peekNumber = newStack.peekItem()
   if (peekNumber !== undefined) {
